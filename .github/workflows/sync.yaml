@@ -24,9 +24,9 @@ jobs:
         id: sync
         uses: aormsby/Fork-Sync-With-Upstream-action@v3.4
         with:
-          upstream_sync_repo: tangly1024/NotionNext
-          upstream_sync_branch: main
-          target_sync_branch: main
+          upstream_sync_repo: jiayaoO3O/18-comic-finder
+          upstream_sync_branch: master
+          target_sync_branch: master
           target_repo_token: ${{ secrets.TOKEN }} # automatically generated, no need to set
 
           # Set test_mode true to run tests instead of the true action!!
